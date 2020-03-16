@@ -52,7 +52,7 @@ At a high level they are tasked to do:
 
 Here You can find a link to the [BluePrint](https://cloud.google.com/certification/guides/cloud-engineer/)
 
-Here you can find the [GCP Solutions Website](https://gcp.solutions/)
+
 
 ---
 
@@ -62,6 +62,44 @@ Here you can find the [GCP Solutions Website](https://gcp.solutions/)
 
 ![CheatSheet](/Images/DarkCheatSheet.png)
 
+
+**Key Building Blocks**
+
+* Compute Engine -- VMs Disks, Network
+
+* Cloud Functions -- Event-Driven serverless functions
+
+* Kubernetes Engine -- Manged Kubernetes/Containers
+
+* Cloud Storage -- Object Storage and Serving
+
+* Persistent Disk -- VM attached Disk (Hard Disks)
+
+* Cloud Filestore -- Manged NFS Server
+
+* Cloud TPU (TensorFlow)  -- Specialized Hardware for ML
+
+* Cloud SQL -- Manged MySQL and PostgresQL
+
+* Cloud Spanner Horizontally Scalable Relational DB
+
+* Cloud Firestore -- Strongly-consistent  Serverless Document DB
+
+* Cloud Dataflow -- Stream/batch data processing (Apache Beam)
+
+* Cloud Dataproc -- Manged Spark and Hadoop
+
+* Cloud Pub/Sub -- Global Real-time Messaging 
+
+* Google BigQuery -- Data Warehouse/Analytics 
+
+* Virtual Private Cloud -- Software Defined Networking
+
+* Stackdriver -- GoogleCloud Monitoring Suite of tools
+
+* Cloud Identity -- Manage Users
+
+* Cloud IAM -- Resources Access Control 
 
 ### Links
 
