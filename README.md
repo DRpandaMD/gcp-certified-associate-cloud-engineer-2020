@@ -47,6 +47,8 @@ At a high level they are tasked to do:
 
 Here You can find a link to the [BluePrint](https://cloud.google.com/certification/guides/cloud-engineer/)
 
+Here you can find the [GCP Solutions Website](https://gcp.solutions/)
+
 ---
 
 ![CheatSheet](/Images/gcpCloudDeveloperCheatSheet.png)
