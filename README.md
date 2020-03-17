@@ -3,12 +3,14 @@ Repo for notes, diagrams, and code used to help study for the GCP Certified Asso
 
 * [AcloudGuru ACE Mega Thread](https://acloud.guru/forums/gcp-certified-associate-cloud-engineer/discussion/-LHq7ia97ot7POrc6Nw7/exam_report_mega-thread)
 
+* [ACloudGuru GCP Cloud Engineer Repo](https://github.com/ACloudGuru/gcp-cloud-engineer)
+
 ## Home
 
 
 ### Navigation
 
-* 
+* [Account Setup](/AccountSetup/AccountSetup.md)
 
 ### Overall Exam Structure 
 
