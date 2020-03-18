@@ -11,6 +11,13 @@
 
 ### GSC: Google Cloud Storage (gsutil cli)
 
+
+* note use this commands only as a guide
+
+  * Also get used to googling for the google docs on for the google commands
+
+  * their documentation is pretty good and very well organized 
+
 ```bash
 pwd
 ls
@@ -55,4 +62,35 @@ gsutil ls gs://storage-lab-cli/
 gsutil ls -a gs://storage-lab-cli/
 
 gsutil acl ch -u AllUsers:R gs://storage-lab-cli/Selfie.jpg
+```
+
+
+## Google Compute Engine
+
+### Starting a Google Compute Engine VM
+
+* Some Commands you will find helpful
+
+* Again don't be afraid of googling for the gcloud commands
+
+```bash
+gcloud config get-value project
+
+gcloud compute instances list
+
+gcloud services list
+gcloud services list -h
+gcloud services list --enabled
+gcloud services list --available
+
+gcloud services list --available | grep compute
+gcloud services -h
+
+gcloud compute instances list
+
+gcloud services list
+
+gcloud compute instances create myvm
+gcloud compute instances delete myvm
+gcloud compute instances list
 ```
