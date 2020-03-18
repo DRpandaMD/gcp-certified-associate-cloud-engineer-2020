@@ -80,3 +80,72 @@ I already have a paid account.  But the Free Trial Account from GCP is pretty sw
 * [ACloudGuru GCP Cloud Engineer Repo](https://github.com/ACloudGuru/gcp-cloud-engineer)
 
 
+**What is Google Cloud Shell**
+
+`Google Cloud Shell provides you with command-line access to your cloud resources directly from your browser.  You can easily manage your projects and resources without having to install the Google Cloud SDK or other tools on your system.  With Cloud Shell the Cloud SDK gcloud CLI and other utilities you need are always available, up to date and fully authenticated when you need them ` -- GCP Docs
+
+
+**Highlights**
+
+* Web browser access
+
+  * No need for local terminal 
+
+  * Automatic SSH Key management
+
+* 5GB of persistent storage
+
+* Easy access to preinstalled tools like:
+
+  * gcloud, bq, kubectl, docker, npm/node, pip/python, ruby, vim, emacs, bash
+
+* Preauthorized and always up-to-date
+
+* Web Preview of Web app running on local port
+
+
+### Helpful Cloud Shell Commands
+
+* `dl <filename>`
+
+
+## Data Flows
+
+**aCloudGuru Lecture Video Links**
+
+* [Mental Models](https://acloud.guru/course/aws-certification-preparation/learn/Learning-Effectively/Mental-Models/watch)
+
+* [Mental Model Example](https://acloud.guru/course/aws-certification-preparation/learn/Learning-Effectively/Mental-Model-Example/watch)
+
+* [Zooming In and Out](https://acloud.guru/course/aws-certification-preparation/learn/Learning-Effectively/Zooming-In-and-Out/watch)
+
+
+IT is all about Data flows.  Try to link up in you mind, a mental model for how this data flows through the cloud system and how you move data in systems that you build on top of the cloud platform
+
+|Cloud Service Type | Data Flow|
+|-------------------|----------|
+| Network | Moving |
+| Compute | Processing |
+| Storage | Remembering |
+
+
+### Mental Models
+
+* A simplified representation of reality, which is ....
+
+* Used by your mind to anticipate events or draw conclusions
+
+* Systems combine
+
+  * Build larger systems out of smaller ones (using abstractions)
+
+  * Zooming and out
+
+
+## A look at Google Projects
+
+* [GCP Projects](https://cloud.google.com/docs/overview/#projects)
+
+
+
+
