@@ -11,6 +11,8 @@ Repo for notes, diagrams, and code used to help study for the GCP Certified Asso
 ### Navigation
 
 * [Account Setup](/AccountSetup/AccountSetup.md)
+* [Basic Services](/Basic-Services/Basic-Services.md)
+* [About gcloud](/Basic-Services/gcloud.md)
 
 ### Overall Exam Structure 
 
