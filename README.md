@@ -13,6 +13,8 @@ Repo for notes, diagrams, and code used to help study for the GCP Certified Asso
 * [Account Setup](/AccountSetup/AccountSetup.md)
 * [Basic Services](/Basic-Services/Basic-Services.md)
 * [About gcloud](/Basic-Services/gcloud.md)
+* [GCE via the CLI](/Basic-Services/GCEinAndoutLab.md)
+* [GCE via the Console](/Basic-Services/GCEviaConsole.md)
 
 ### Overall Exam Structure 
 

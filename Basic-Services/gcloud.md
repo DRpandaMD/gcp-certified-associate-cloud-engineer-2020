@@ -92,3 +92,26 @@
 * check with `gcloud config get-value <property`
 
 * clear with `gcloud config unset <property>`
+
+
+### Configurations
+
+* Can maintain groups of settings and switch between them
+
+* Most useful when using multiple projects
+
+* interactive workflow to set common properties in a config with  `gcloud init`
+
+* list all properties in a configuration with `gcloud config list`
+
+* list all possible configurations with `gcloud config configurations list `
+
+    * `IS_ACTIVE` column shows which one is currently being used
+
+    * other column list account, project, region, zone, and the name of the config
+
+* make new config with `gcloud config configurations create ITS_NAME`
+
+* Start using config with `gcloud config configurations activate ITS_NAME`
+
+  * Or use for just one command with `--configurations=ITSNAME`
