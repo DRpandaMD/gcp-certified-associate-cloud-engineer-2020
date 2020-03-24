@@ -61,6 +61,16 @@ At a high level they are tasked to do:
 Here You can find a link to the [BluePrint](https://cloud.google.com/certification/guides/cloud-engineer/)
 
 
+### Exam Question Break Down
+
+|   |    |
+|---|----|
+| **Understand** | Deterime the key question Kicker **&&** Figure out what everything means -question and responses |
+| **Eliminate** | Get rid of responses that have fake info or other errors **&&** Get Rid of responses that conflict with the key question |
+| **Evalulate** | Think through all the tradeoffs for remaining responses **&&** consider bot stated and implied dimensions|
+| **Choose** | Pick excatly the right number **&&** select the best options or eliminate the worst ones
+| **Validate** | Make sure your reponses answer the key question **&&** make sure your responses don't conflict with any details 
+
 
 ---
 
