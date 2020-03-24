@@ -2,6 +2,30 @@
 
 ## Notes
 
+### Desired End State
+
+* A Brand new Project
+
+* A GCE Instance that runs the provided script
+
+* System Logs available in Stackdriver Logs
+
+* A new GCS Bucket for resultling log files
+
+* Log file appears in new bucket after instances finishes starting up
+
+* No need to SSH to instance
+
+
+
+### How to get there
+
+* Make a new project (Pretty Easy)
+
+* Make a new Bucket with Regional (cheap and also easy to do)
+
+* Enable GCE -- note the APIs for GCE are not enabled by default.  BUT! By clicking on the GCE Tab will make an API Call to get those enabled.  (Just Remember that if you want to script this out for later)
+
 
 ## Start up script used
 
