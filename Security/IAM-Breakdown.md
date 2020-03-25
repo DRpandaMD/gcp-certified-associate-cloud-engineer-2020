@@ -61,4 +61,27 @@
 
 * Primitive Roles - Project-level and often too broad
 
-* 
+    * viewer is read-only
+
+    * editor can view and change things
+
+    * owner can also control access & billing
+
+* Predefined Roles -  Give granular access to specific GCP resources
+
+    * E.g.: `roles/bigquery.dataEditor, roles/pubsub.subscriber`
+
+    * For the exam read through the list of roles for each product!  --Think about why each exists
+
+* Custom Role - Project or Org-Level Collections you define of granular permissions
+
+#### App Engine - Predefined Role Example
+
+
+| Role Name | Role Title | Description |
+| ---- | ----- | ---- |
+| roles/ appengine.AppAdmin | App  Engine Admin | Read/Write/Modify access to all application configuration and settings. |
+| roles/ appengine.serviceAdmin | App Engine Service Admin | Read-only access to all application configuration and settings.  Write access to module-level and version-level settings. Cannot deploy a new version. |
+| roles/ appengine.deployer | App Engine Deployer | Read-only access to all application configuration and settings.  Write access only to create a new version; cannot modify existing versions other than deleting versions that are not receiving traffic|
+| roles/ appengine.appViewer | App Engine Viewer | Read-only access to all application configurations and settings. |
+| roles/ appengine.codeViewer | App Engine Code Viewer | Read-only access to all configuration settings, and deployed source code |
