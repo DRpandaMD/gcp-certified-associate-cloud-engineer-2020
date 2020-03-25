@@ -1,1 +1,0 @@
-# Identity and Access Management (IAM ) Breakdown -- Resource Hierarchy.md
