@@ -85,3 +85,71 @@
 | roles/ appengine.deployer | App Engine Deployer | Read-only access to all application configuration and settings.  Write access only to create a new version; cannot modify existing versions other than deleting versions that are not receiving traffic|
 | roles/ appengine.appViewer | App Engine Viewer | Read-only access to all application configurations and settings. |
 | roles/ appengine.codeViewer | App Engine Code Viewer | Read-only access to all configuration settings, and deployed source code |
+
+
+### Members and Groups
+
+* [IAM Overview Docs - Members and Groups](https://cloud.google.com/iam/docs/overview)
+
+#### Members
+
+* A member is some Google-Known identity
+
+* Each member is identified by a unique email address
+
+* Can be:
+
+    * user: Specific Google Account:  `{G Suit, Cloud Identity, Gmail or validated email}`
+
+    * `serviceAccount`: Service account for apps/services
+
+    * `group` : Google group of users and service accounts
+
+    * `domain`: whole domain managed by GSuite or Cloud Identity
+
+    * `allAuthenticatedUsers --  *ANY* Google account or service account 
+
+
+#### Groups
+
+* " A Google Group is a named collection of google accounts and service accounts".
+
+* "Every group has unique email address that is associated with the group."
+
+* You can never act *as* the group
+
+    * But membership in a group can grant capabilities to individuals 
+
+* Use them for everything!
+
+* Can be used for owner when within an organization
+
+* *Can* nest groups in an organization
+
+    * Example: one group for each department, all those in group for all staff
+
+
+### IAM Breakdown - Policies
+
+* [IAM Overview Docs - Policies](https://cloud.google.com/iam/docs/overview)
+
+* [Granting, Changing and Revoking Access to Resources](https://cloud.google.com/iam/docs/granting-changing-revoking-access)
+
+* ["gcloud add-iam-policy-binding"](https://www.google.com/search?q=gcloud+add-iam-policy-binding+site%3Acloud.google.com)
+
+
+#### Policies
+
+* A Policy binds Members to Roles for some scope of Resources
+
+* Answers: Who can do what to which things?
+
+* Attached to some level in the Resource Hierarchy
+
+    * Organization, Folder, Project, Resource
+
+* Roles and Members listed in policy, but Resource identified by attachment
+
+* Always additive ("Allow") and never subtractive (no "Deny")
+
+    * "Child policies cannot restrict access granted at a higher level
