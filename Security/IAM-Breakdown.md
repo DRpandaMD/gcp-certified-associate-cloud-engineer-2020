@@ -153,3 +153,32 @@
 * Always additive ("Allow") and never subtractive (no "Deny")
 
     * "Child policies cannot restrict access granted at a higher level
+
+* Use groups!
+
+
+##### Managing Policy Bindings
+
+* Can use `get-iam-policy`, edit the JSON/YAML file, and `set-iam-policy` back
+
+* But you should use:
+
+* `gcloud [GROUP] add-iam-policy-binding [RESOURCE-NAME] --role [ROLE-ID-TO-GRANT] --member user: [USER-EMAIL]`
+
+* `gcloud [GROUP] remove-iam-policy-binding [RESOURCE-NAME] --role [ROLE-ID-TO-REVOKE] --member user: [USER-EMAIL]`
+
+* Atomic operations are better because changes:
+
+  * are simpler, less work, and less error-prone (than editing the yaml or json)
+
+  * *Avoids race conditions, so changes cna happen simultaneously*
+
+
+
+### IAM Breakdown -- Wrap Up
+
+* [IAM Overview Documentation](https://cloud.google.com/iam/docs/overview)
+
+* [IAM FAQ](https://cloud.google.com/iam/docs/faq)
+
+* [IAM Best Practices](https://cloud.google.com/iam/docs/using-iam-securely)
