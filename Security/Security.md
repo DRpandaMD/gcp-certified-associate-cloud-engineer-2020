@@ -14,10 +14,10 @@
 
 ## Definition
 
-```
+
 Information security, sometimes shortened to InfoSec, is the practice of preventing unauthorized access, use, disclosure, disruption, modification, inspection, recording or destruction of information....  Its primary focus is the balanced protection of the confidentiality, integrity and availability of data (also know=n as the CIA triad) while maintaining a focus on efficient policy implementation, all without hampering organization productivity. 
-```
-Wikipedia
+
+-- Wikipedia
 
 * Proper Data Flow
 
