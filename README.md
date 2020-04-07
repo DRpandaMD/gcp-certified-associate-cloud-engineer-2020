@@ -15,6 +15,12 @@ Repo for notes, diagrams, and code used to help study for the GCP Certified Asso
 * [About gcloud](/Basic-Services/gcloud.md)
 * [GCE via the CLI](/Basic-Services/GCEinAndoutLab.md)
 * [GCE via the Console](/Basic-Services/GCEviaConsole.md)
+* [GCE Challenge Lab](/Basic-Services-Challenge-Lab/Basic-Services-Challenge-Lab.md)
+* [Scaling and Manged Instance Groups](/ManagedInstanceGroups/ManagedInstanceGroups.md)
+* [Security](/Security/Security.md)
+* [Security - IAM Breakdown](/Security/IAM-Breakdown.md)
+* [Security - Billing Access Control](/Security/BillingAccessControl.md)
+* [Networking](/Networking/Networking.md)
 
 ### Overall Exam Structure 
 
