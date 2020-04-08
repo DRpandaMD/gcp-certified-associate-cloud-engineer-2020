@@ -126,10 +126,23 @@
 
 * firewall rules (global) further filter data flow that would otherwise route
 
-  * all firewall ruels are global and apply by Instance-level tags or service account
+  * all firewall rule are global and apply by Instance-level tags or service account
 
   * default firewall rules are restrictive inbound and permissive outbound
 
-## VPC - Automode lab
+## VPC - Automode Lab
 
 * [subnet ranges](https://cloud.google.com/vpc/docs/vpc#subnet-ranges)
+
+
+## VPC - Custom Mode Lab
+
+* [VPC Documentation](https://cloud.google.com/vpc/docs/vpc)
+
+* [Understanding Iam Custom Roles](https://cloud.google.com/iam/docs/understanding-custom-roles)
+
+* [Creating and Managing Custom Roles](https://cloud.google.com/iam/docs/creating-custom-roles)
+
+* [Service Accounts Overview](https://cloud.google.com/compute/docs/access/service-accounts)
+
+* [Creating and enabling service accounts](https://cloud.google.com/compute/docs/access/create-enable-service-accounts-for-instances)
