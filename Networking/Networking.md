@@ -137,7 +137,11 @@
 
 ## VPC - Custom Mode Lab
 
+### Part 1
+
 * [VPC Documentation](https://cloud.google.com/vpc/docs/vpc)
+
+### Part 2
 
 * [Understanding Iam Custom Roles](https://cloud.google.com/iam/docs/understanding-custom-roles)
 
@@ -146,3 +150,22 @@
 * [Service Accounts Overview](https://cloud.google.com/compute/docs/access/service-accounts)
 
 * [Creating and enabling service accounts](https://cloud.google.com/compute/docs/access/create-enable-service-accounts-for-instances)
+
+### Part 3
+
+* [Firewall Rules Overview](https://cloud.google.com/vpc/docs/firewalls)
+
+* [Configuring Network Tags](https://cloud.google.com/vpc/docs/add-remove-network-tags)
+
+* [Filtering by Service Account vs. Network Tag](https://cloud.google.com/vpc/docs/firewalls#service-accounts-vs-tags)
+
+* [Updating manged Instance Groups (e.g. Rolling update)](https://cloud.google.com/compute/docs/instance-groups/rolling-out-updates-to-managed-instance-groups)
+
+* [acloudguru: Thead for editing instance in the web console](https://acloud.guru/forums/gcp-certified-associate-cloud-engineer/discussion/-LX_K01iaNGvgD6ICp_p/cannot_edit_instance_in_group)
+
+
+Add tag to VM via `gcloud`
+
+```bash
+gcloud compute instances add-tags frontend-instance-group-knf1 --zone=us-west1-c --tags=open-ssh-tag
+```
