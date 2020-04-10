@@ -169,3 +169,48 @@ Add tag to VM via `gcloud`
 ```bash
 gcloud compute instances add-tags frontend-instance-group-knf1 --zone=us-west1-c --tags=open-ssh-tag
 ```
+
+### Challenge Lab
+
+* A Lab Challenge built on the previous step
+
+
+#### Desired Result -- SETUP
+
+* Two-tier setup: frontend and back, each auto scaled across 2+ zones
+
+* Use ICMP (ping) to represent allowed traffic
+
+* Frontend:
+
+  * accepts incoming traffic from internet
+
+  * can connect outbound to backend and internet
+
+* Backend:
+
+  * only accepts incoming from frontend or other backend
+
+  * no outbound expect other backend
+
+#### Desire Result -- Validation
+
+* From Cloud shell or your computer:
+
+  * can ping frontend instances
+
+  * cannot ping backend instances
+
+* when SSHed to a frontend instances
+
+  * can ping the backend
+
+  * can ping google.com
+
+* When SSHed to a backend instance
+
+  * cannot ping the frontend
+
+  * cannot ping google.com
+
+  * can ping other backend instances
