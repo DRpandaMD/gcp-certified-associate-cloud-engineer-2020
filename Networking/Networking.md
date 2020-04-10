@@ -214,3 +214,18 @@ gcloud compute instances add-tags frontend-instance-group-knf1 --zone=us-west1-c
   * cannot ping google.com
 
   * can ping other backend instances
+
+
+#### My Solution
+
+* Start with 2 sets of managed instance groups like in the first lab
+
+* create a `open-ssh` firewall rule with `500` priority and `0.0.0.0/0`
+
+* **THIS WILL NOT WORK AS SHOWN IN THE VIDEO**
+
+* delete the firewall rule
+
+* open the gcloud terminal 
+
+* set your gcloud config  : `gcloud config set project <project-id>`
