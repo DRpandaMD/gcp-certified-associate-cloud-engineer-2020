@@ -274,6 +274,16 @@ gcloud compute instances add-tags frontend-instance-group-knf1 --zone=us-west1-c
 * New range must contain old range (i.e. old range must be a subset)
 
 
-### VPC Links
+### Shared VPC
 
 * [Shared VPC](https://cloud.google.com/vpc/docs/shared-vpc)
+
+* In an Organization, you can share VPCs among Multiple projects
+
+  * **Host project:** One project owns the shared VPC
+
+  * **Service project:** other projects granted Access to use all/part of Shared VPC
+
+* Lets multiple projects coexist on same local network (private IP space)
+
+* This would let a centralized team manage network security
