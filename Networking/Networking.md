@@ -229,3 +229,51 @@ gcloud compute instances add-tags frontend-instance-group-knf1 --zone=us-west1-c
 * open the gcloud terminal 
 
 * set your gcloud config  : `gcloud config set project <project-id>`
+
+* **I Will come back to this at a later date to finish**
+
+
+## Networking Exam Tips
+
+* Practice CIDR Blocks
+
+  * /16, /24, /28, etc 
+
+  * use <https://cidr.xyz/>
+
+  * CIDR /16 is the same as 255.255.0.0
+
+  * CIDR /24 is the same as 255.255.255.0
+
+  * CIDR /32 is the same as 255.255.255.255
+
+* Practice / Learn common ports
+
+  * **HTTP == 80**
+
+  * **HTTPS == 443**
+
+  * **SSH == 22**
+
+  * ICMP == NO PORT
+
+  * RDP == 3389
+
+  * SQL == 1443
+
+  * MySQL == 3306
+
+  * Postgres == 5432
+
+### Subnet CIDR Ranges
+
+* In GCP you *can* edit a subnet to increase its CIDR range
+
+* No need to recreate subnet or instances
+
+* New range must contain old range (i.e. old range must be a subset)
+
+
+### VPC Links
+
+* [Shared VPC](https://cloud.google.com/vpc/docs/shared-vpc)
