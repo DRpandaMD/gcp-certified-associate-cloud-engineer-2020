@@ -137,3 +137,78 @@
 ### Networking in the Sample App
 
 * Take a look at the `k8s-sample-apps/mysql-wordpress-pd/wordpress-deployment.yaml`
+
+* they are in a declarative format. which is great for K8s and Documentation.
+
+
+### Kubernetes Networking Basics
+
+* All nodes can talk
+
+* All Pods can talk without NAT
+
+* every pod gets its own IP
+
+### Kubernetes Service Fundamentals
+
+* enter Stable network abstraction 
+
+* every service gets a name and IP -- they are stable
+
+* services are auto registered in coreDNS
+
+* use labels for pod traffic routing 
+
+* end point object maps ips from pods and labels
+
+
+### Service Types
+
+* Cluster Ip is the default:
+
+  * gets own IP
+
+  * own accessible from within the cluster
+
+* NodePort:
+
+  * Gets cluster wide **PORT**
+
+  * Accessible from outside the cluster
+
+* LoadBalancer
+
+  * integrates with public cloud platform (AWS, Azure GCP)
+
+
+### The Service Network
+
+* Separate from:
+
+    * Node network
+
+    * Pod network
+
+* "kube-proxy"
+
+* IPTABLES Mode:
+
+  * Default since K8s 1.2
+
+  * Doesn't Scale well
+
+  * not really designed for Load Balancing
+
+* IPVS Mode
+
+  * Stable (GA) since Kubernetes 1.11
+
+  * Uses Linux kernel IP Virtual Server
+
+  * native layer-4 load balancer
+
+  * supports more algorithms (than just RoundRobin)
+
+### Networking Demo
+
+* I forked the class lesson here <https://github.com/DRpandaMD/Course_Kubernetes_Deep_Dive_NP/tree/master/lesson-networking>
