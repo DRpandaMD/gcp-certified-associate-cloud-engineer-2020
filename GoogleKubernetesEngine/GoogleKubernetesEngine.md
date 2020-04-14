@@ -121,3 +121,19 @@
 * I forked this from nigelpoulton <https://github.com/DRpandaMD/k8s-sample-apps>
 
 ## Kubernetes Networking
+
+### Common Networking Requirements
+
+* big scalable networks
+
+* service discovery! 
+
+* highly dynamic networks are the new normal
+
+* endpoints added and removed from network based on active scaling up and down
+
+  * also covers failure, rolling updates, etc etc.
+
+### Networking in the Sample App
+
+* Take a look at the `k8s-sample-apps/mysql-wordpress-pd/wordpress-deployment.yaml`
