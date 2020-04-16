@@ -212,3 +212,18 @@
 ### Networking Demo
 
 * I forked the class lesson here <https://github.com/DRpandaMD/Course_Kubernetes_Deep_Dive_NP/tree/master/lesson-networking>
+
+
+* `kubectl get nodes` used to list nodes in the cluster
+
+* `kubectl apply -f ./ping-deploy.yml` creates a deployment based on the .yml
+
+* `kubectl get deploy` gets the deployment object here its just pingtest
+
+* `kubectl get pods -o wide` shows the wide landscape of how the pods are set against the nodes
+
+* `kubectl get nodes -o jsonpath='{.items[*].spec.podCIDR}'` shows another output of just the CIDR blocks the nodes are sitting on.
+
+* `kubectl exec -it pingtest-6bcdfcdc5b-8t6zg bash` just like docker this will connect into said pod with bash (these pods will change)
+
+* `
