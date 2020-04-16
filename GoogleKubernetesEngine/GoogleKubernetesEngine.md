@@ -226,4 +226,36 @@
 
 * `kubectl exec -it pingtest-6bcdfcdc5b-8t6zg bash` just like docker this will connect into said pod with bash (these pods will change)
 
-* `
+* run `apt-get install iputils-ping curl dnsutils iproute2 -y` to install some utilities that the base container image does not come with and will needed to run some tests
+
+  * you will have to run `apt-get update` FIRST!!
+
+* inside the pod you can `ping` the other pods it will work
+
+* exit the pod
+
+* `kubectl apply -f ./simple-web.yml` deploys the new service
+
+* `kubectl get svc` will list the service 
+
+* jump back into the pod you had the ip tests 
+
+  * if you don't remember (Like I did) just install the tools again on the new pod
+
+* `curl hello-svc:8080` which is the format of `<SERVICE_NAME: Pod_Port>` 
+
+  * this will dump out the HTML text of the pod
+
+* `curl <Any_Node_IP>:30001` which is the format of `<NODE_IP: NODE_PORT>`
+
+  * This will ALSO dump out the html text of the pod
+
+* Now to set up the public load balancer 
+
+* `kubectl apply --f lb.yml` to deploy the new lb service
+
+* `kubectl get svc --watch` to watch the lb-svc and get an external IP
+
+* copy and paste the external IP and put it into a browser and the web page should render
+
+  * "Hello Cloud Gurus"
