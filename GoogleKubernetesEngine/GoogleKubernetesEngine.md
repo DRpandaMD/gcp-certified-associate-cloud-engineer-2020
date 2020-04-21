@@ -259,3 +259,40 @@
 * copy and paste the external IP and put it into a browser and the web page should render
 
   * "Hello Cloud Gurus"
+
+## Kubernetes Storage
+
+### Kubernetes Storage Big Picture
+
+* Kubernetes Volumes abstract the data from the pods -- decoupling storage from Pods
+
+* File and Block are First Class citizens in Kubernetes 
+
+  * Standards based
+
+  * pluggable backend
+
+  * Rich API 
+
+* What are your storage requirements
+
+  * Speed?
+
+  * Replication?
+
+  * Resiliency 
+
+  * ...etc
+
+* This all gets handled by the storage backend
+
+* Containers Storage Interface puts the storage into the hands of the Persistent Volume Subsystem.
+
+  * Persistent Volume (PV)
+
+  * Persistent Volume Claim (PVC)
+
+  * Storage Class (SC)
+
+
+### The Container Storage Interface 
