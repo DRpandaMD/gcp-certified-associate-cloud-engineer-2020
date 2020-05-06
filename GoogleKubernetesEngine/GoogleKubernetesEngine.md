@@ -288,11 +288,87 @@
 
 * Containers Storage Interface puts the storage into the hands of the Persistent Volume Subsystem.
 
-  * Persistent Volume (PV)
+  * Persistent Volume (PV) -- storage
 
-  * Persistent Volume Claim (PVC)
+  * Persistent Volume Claim (PVC) -- ticket to use the PV
 
-  * Storage Class (SC)
+  * Storage Class (SC) -- makes it dynamic
+
+### The Container Storage Interface (CSI)
+
+* maintained at <https://github.com/container-storage-interface/spec>
+
+* decouples storage from the main code base of K8s
+
+### The kubernetes PersistentVolume Subsystem
+
+* GCP Persistent Disks
+
+  * Standard
+
+  * SSD
+
+* GCEPersistentDisk PlugIn
+
+* to use a PV  needs to PV Claim  
 
 
-### The Container Storage Interface 
+### Dynamic Provisioning with StorageClasses
+
+* using storage classes allow for the dynamic creation of PV and binding
+
+
+### DEMO
+
+* code used <https://github.com/ACloudGuru-Resources/Course_Kubernetes_Deep_Dive_NP/blob/master/sample-app/mysql-wordpress-pd/mysql-deployment.yaml>
+
+* it is important to note that by default Kubernetes (GKE) will make a `default` storage class 
+
+* you can find it by `kubectl get sc`
+
+  * It will list the storage class
+
+* you will need a secret for the database
+
+  * `kubectl create secret generic mysql-pass --from-literal=password=<PASSWORD>`
+
+* run `kubectl apply -f ./mysql-deployment.yaml`
+
+* use `kubectl describe pv` && `kubectl describe pvc` to get details about the Persistent Volume and the Persistent Volume Claim
+
+
+* clean up by: 
+
+  * `kubectl delete deployment <delpoyment_name>`
+
+  * `kubectl delete pvc <pvc_name>`
+
+  * `kubectl delete pv <pv_name>`
+
+  * check the deployment, pods, pvc, and pv and it should all be cleaned up
+
+## From Code to Kubernetes
+
+* apps start with code
+
+* put it into a container image
+
+* put the image in to a registry
+
+* then use kubernetes to create an object that kubernetes can uses
+
+  * deployments!!
+
+* *coding* then *docker* then *kubernetes*
+
+### Demo
+
+* Using this code <https://github.com/ACloudGuru-Resources/Course_Kubernetes_Deep_Dive_NP/tree/master/code-k8s> or the fork that I have provided
+
+* examine the directory code and dockerfile 
+
+* `docker image build -t drpandamd/node-app:0.1 .`
+
+* `docker image push drpandamd/node-app:0.1`
+
+* I went ahead and made some changes to his code and made it my own and deployed the deployment and the web-service

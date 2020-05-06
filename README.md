@@ -1,4 +1,5 @@
 # gcp-certified-associate-cloud-engineer-2020
+
 Repo for notes, diagrams, and code used to help study for the GCP Certified Associate Cloud Engineer Exam
 
 * [AcloudGuru ACE Mega Thread](https://acloud.guru/forums/gcp-certified-associate-cloud-engineer/discussion/-LHq7ia97ot7POrc6Nw7/exam_report_mega-thread)
