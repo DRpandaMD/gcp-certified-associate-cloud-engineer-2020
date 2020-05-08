@@ -372,3 +372,23 @@
 * `docker image push drpandamd/node-app:0.1`
 
 * I went ahead and made some changes to his code and made it my own and deployed the deployment and the web-service
+
+* for clean up you will want to make sure you kill the deployment and services made in kubernetes
+
+## Kubernetes Deployments
+
+* deployments wrap up your pods
+
+* make your changes in the deployment post it against the API server then stick it back into git
+
+* with replicas set to 3:
+
+  * rolling updates :
+
+    * maxSurge: 1  -- will have one extra pod than the desired state during the update
+
+    * maxUnavailable: 0 -- will ensure we never go below 3 
+  
+  * This will roll out new pods with the new version and kill off the old pods one by one until all pods in the desired state of 3 have the new version.  -- This will keep your app up while rolling the update
+
+* minReadySeconds: 300 will give 5 minutes inbetween each new pod -- this helps give time to ensure the pods stand up 
