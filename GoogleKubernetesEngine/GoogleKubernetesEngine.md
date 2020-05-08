@@ -318,7 +318,7 @@
 * using storage classes allow for the dynamic creation of PV and binding
 
 
-### DEMO
+### Storage Classes Demo
 
 * code used <https://github.com/ACloudGuru-Resources/Course_Kubernetes_Deep_Dive_NP/blob/master/sample-app/mysql-wordpress-pd/mysql-deployment.yaml>
 
@@ -391,4 +391,41 @@
   
   * This will roll out new pods with the new version and kill off the old pods one by one until all pods in the desired state of 3 have the new version.  -- This will keep your app up while rolling the update
 
-* minReadySeconds: 300 will give 5 minutes inbetween each new pod -- this helps give time to ensure the pods stand up 
+* minReadySeconds: 300 will give 5 minutes between each new pod -- this helps give time to ensure the pods stand up 
+
+### Deployment Demo
+
+* `kubectl get nodes`
+
+* `kubectl version -o yaml`
+
+* `kubectl apply -f deploy.yml`
+
+* `kubectl get deployment test --watch`
+
+* `kubectl describe deployment test`
+
+* `kubectl get rs` -- rs here means replica set
+
+* `kubectl rollout history deployment test`
+
+* `kubectl apply -f deploy.yml --record`
+
+* `kubectl rollout undo deploy test`
+
+
+
+## Scaling Applications Automatically 
+
+* Increasing load (cpu memory / connections messages in the queue )
+
+* increase in pods to trigger more nodes
+
+* Horizontal Pod AutoScaler 
+
+* Cluster AutoScaler
+
+
+### Horizontal Pod AutoScaler 
+
+* 
