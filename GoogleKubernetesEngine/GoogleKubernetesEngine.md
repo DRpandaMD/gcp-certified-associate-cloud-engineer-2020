@@ -428,4 +428,38 @@
 
 ### Horizontal Pod AutoScaler 
 
-* 
+* will scale pods automatically horizontally across nodes
+
+### HPA Demo
+
+* to match up what Nigel has, i set my cluster to autoscale min 3 nodes max 6 nodes
+
+* `kubectl get pods --namespace acg-ns` to check the pods made
+
+
+* to run the load generator
+
+```bash
+kubectl run -i --tty loader --image=busybox /bin/sh
+
+while true; do wget -q -O- http://acg-lb.acg-ns.svc.cluster.local; done
+```
+
+* `kubectl get hpa --namespace acg-ns` to watch the HPA do its thing
+
+* `kubectl get pods --namespace acg-ns` to list the pods out in the name space
+
+* `kubectl get deploy --namespace acg-ns -o yaml` to see the yaml of the deployment and how the deployment was changed based on information provided by the HPA
+
+* make sure to clean up after you are done
+
+
+### Cluster Autoscaler 
+
+* make sure you have your pods listed in the yaml with resource requests!
+
+* dont mess with the pools via the CLI or Console
+
+* check your specific cloud for support (luckily GCP is on top of it)
+
+* test for performance on BIG clusters
