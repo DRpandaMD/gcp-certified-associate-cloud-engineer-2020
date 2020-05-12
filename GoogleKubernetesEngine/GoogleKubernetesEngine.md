@@ -463,3 +463,13 @@ while true; do wget -q -O- http://acg-lb.acg-ns.svc.cluster.local; done
 * check your specific cloud for support (luckily GCP is on top of it)
 
 * test for performance on BIG clusters
+
+## RBAC and Admission Control
+
+* we want to control who access to the API server
+
+  * actions are REST based
+
+  * and CRUD (Create, Read, Update, Delete )
+
+* via HTTPS 
