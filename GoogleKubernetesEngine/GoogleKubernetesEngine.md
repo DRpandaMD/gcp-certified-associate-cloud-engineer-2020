@@ -473,3 +473,61 @@ while true; do wget -q -O- http://acg-lb.acg-ns.svc.cluster.local; done
   * and CRUD (Create, Read, Update, Delete )
 
 * via HTTPS 
+
+* AuthN -- prove your ID
+
+* AuthZ -- is the user allowed to perform action
+
+* Addition Control -- Mutate and validation 
+
+* Schema validation 
+
+* RBAC 
+
+  * Enabled since 1.6
+
+  * GA since 1.8
+
+  * Deny-by-default
+
+### Authentication
+
+* Kubernetes does not do users 
+
+  * manage users externally 
+
+* Service Accounts
+
+  * do happen in Kubernetes
+
+  * for system components
+
+  * managed  by kubernetes
+
+  * you should be using these and should manage them.
+
+### Authorization
+
+* Basically : **who** can perform which **actions** on which **resources**
+
+  * can *sam* execute a *create* on a *deployment*
+
+  * can *bob* execute a *delete* on a *pods*
+
+* out of the box K8s has Default Users -- its how you been doing everything in the cluster as it stands
+
+  * it is too powerful for production
+
+* You will need to create some **Roles & RoleBindings** for least privilege 
+
+* You can bind by *Role* or by *ClusterRole*
+
+  * *role* is namespaced
+
+  * *ClusterRole* is for the whole cluster
+
+  * what you can do is create *ClusterRoles* then in the *RoleBinding* you can add namespaces to them.
+
+  * That way you can make a few *ClusterRoles* but get granular in the *RoleBinding*
+
+  * This prevents you from doing extra work
