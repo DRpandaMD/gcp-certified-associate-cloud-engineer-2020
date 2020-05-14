@@ -583,3 +583,17 @@ Here is an overview I snipped from the mad lads over at acloudguru
 * Docker Dive Book
 
 * Community KubeCon
+
+* the podctl podcast
+
+* kubernetes podcast from google
+
+* kubernetes certfied administrator
+
+* serverless Knative and openfaas
+
+* serverice meshes
+
+* prometheus
+
+* API 
