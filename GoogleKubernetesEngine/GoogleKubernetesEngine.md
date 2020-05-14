@@ -557,3 +557,29 @@ while true; do wget -q -O- http://acg-lb.acg-ns.svc.cluster.local; done
 Here is an overview I snipped from the mad lads over at acloudguru
 
 ![RBAC Overview](/GoogleKubernetesEngine/Images/RBAC_AdmissionControl_Overview.PNG)
+
+## Other Kubernetes Stuff -- Stuff Nigel thinks is important
+
+* DaemonSets - pod one runs every node
+
+* StatefulSet - 
+
+* Job - specified number of pods to complete a specific task
+
+* CronJob - scheduled Job
+
+* PodSecurityPolicy 
+
+* Pod resource requests and limits
+
+* ResourceQuotas - set limits against namespaces
+
+* CustomResourceDefinition - adds some extensibility to Kubernetes 
+
+## What is Next 
+
+* The Kubernetes Book
+
+* Docker Dive Book
+
+* Community KubeCon
