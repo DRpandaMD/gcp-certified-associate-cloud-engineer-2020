@@ -520,6 +520,10 @@ while true; do wget -q -O- http://acg-lb.acg-ns.svc.cluster.local; done
 
 * You will need to create some **Roles & RoleBindings** for least privilege 
 
+* new roles and bindings are -- DENY ALL by default
+
+  * so you will have to open up individual roles
+
 * You can bind by *Role* or by *ClusterRole*
 
   * *role* is namespaced
@@ -530,4 +534,26 @@ while true; do wget -q -O- http://acg-lb.acg-ns.svc.cluster.local; done
 
   * That way you can make a few *ClusterRoles* but get granular in the *RoleBinding*
 
-  * This prevents you from doing extra work
+  * This prevents you from doing extra work with roles and assigning them
+
+
+### Admission Control - not yet GA
+
+* webhooks with external admissions controllers
+
+* mutating 
+
+* validating
+
+
+### RBAC Demo
+
+* [Github Code](https://github.com/ACloudGuru-Resources/Course_Kubernetes_Deep_Dive_NP/tree/master/lesson-rbac)
+
+* he is using kops on AWS 
+
+### RBAC Recap
+
+Here is an overview I snipped from the mad lads over at acloudguru
+
+![RBAC Overview](/GoogleKubernetesEngine/Images/RBAC_AdmissionControl_Overview.PNG)
