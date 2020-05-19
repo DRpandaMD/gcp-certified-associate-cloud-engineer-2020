@@ -22,8 +22,12 @@ Repo for notes, diagrams, and code used to help study for the GCP Certified Asso
 * [Security - IAM Breakdown](/Security/IAM-Breakdown.md)
 * [Security - Billing Access Control](/Security/BillingAccessControl.md)
 * [Networking](/Networking/Networking.md)
+* [GKE: Google Kubernetes Engine](/GoogleKubernetesEngine/GoogleKubernetesEngine.md)
+* [GAE: Google App Engine](Placeholder)
+* [Services Breadth](Placeholder)
+* [Wrap UP and Conclusion](Placeholder)
 
-### Overall Exam Structure 
+### Overall Exam Structure
 
 Here You can find a link to the [BluePrint](https://cloud.google.com/certification/guides/cloud-engineer/)
 
@@ -50,7 +54,6 @@ At a high level they are tasked to do:
 
 * Leverages Google-managed ort self-managed services on Google Cloud
 
-
 **Exam Domains**
 
 1) Setting up a cloud solution environment 
@@ -72,11 +75,11 @@ Here You can find a link to the [BluePrint](https://cloud.google.com/certificati
 
 |   |    |
 |---|----|
-| **Understand** | Deterime the key question Kicker **&&** Figure out what everything means -question and responses |
+| **Understand** | Determine the key question Kicker **&&** Figure out what everything means -question and responses |
 | **Eliminate** | Get rid of responses that have fake info or other errors **&&** Get Rid of responses that conflict with the key question |
-| **Evalulate** | Think through all the tradeoffs for remaining responses **&&** consider bot stated and implied dimensions|
-| **Choose** | Pick excatly the right number **&&** select the best options or eliminate the worst ones
-| **Validate** | Make sure your reponses answer the key question **&&** make sure your responses don't conflict with any details 
+| **Evaluate** | Think through all the tradeoffs for remaining responses **&&** consider bot stated and implied dimensions|
+| **Choose** | Pick exactly the right number **&&** select the best options or eliminate the worst ones
+| **Validate** | Make sure your responses answer the key question **&&** make sure your responses don't conflict with any details 
 
 
 ---
