@@ -24,7 +24,7 @@ Repo for notes, diagrams, and code used to help study for the GCP Certified Asso
 * [Networking](/Networking/Networking.md)
 * [GKE: Google Kubernetes Engine](/GoogleKubernetesEngine/GoogleKubernetesEngine.md)
 * [GAE: Google App Engine](Placeholder)
-* [Services Breadth](Placeholder)
+* [Services Breadth](/ServicesBreadth/Services-Breadth.md)
 * [Wrap UP and Conclusion](Placeholder)
 
 ### Overall Exam Structure
