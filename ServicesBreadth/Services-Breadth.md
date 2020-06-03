@@ -83,7 +83,39 @@
 
 ## External Networking
 
+[Google Domains](https://domains.google/#/)
+
+![Google Domains](/ServicesBreadth/Images/Google_Domains.PNG)
+
+[Cloud DNS](https://cloud.google.com/dns/)
+
+![Cloud DNS](/ServicesBreadth/Images/Cloud_DNS.PNG)
+
+[Static IPs](https://cloud.google.com/compute/docs/ip-addresses/reserve-static-external-ip-address)
+
+![Static IPs](/ServicesBreadth/Images/Static_IPS.PNG)
+
+[Cloud Load Balancing](https://cloud.google.com/load-balancing/)
+
+![Cloud Load Balancing](/ServicesBreadth/Images/Cloud_Load_Balancing.PNG)
+
+[Cloud CDN](https://cloud.google.com/cdn/)
+
+![Cloud CDN](/ServicesBreadth/Images/Cloud_CDN.PNG)
+
 ## Internal Networking
+
+[Virtual Private Cloud](https://cloud.google.com/vpc/)
+
+[Google Cloud Hybrid Connectivity (Cloud Interconnect)](https://cloud.google.com/hybrid-connectivity)
+
+[Cloud VPN](https://cloud.google.com/vpn/docs/concepts/overview)
+
+[Dedicated Interconnect](https://cloud.google.com/interconnect/docs/concepts/dedicated-overview)
+
+[Cloud Router](https://cloud.google.com/router/docs/)
+
+[CDN Interconnect](https://cloud.google.com/interconnect/docs/how-to/cdn-interconnect)
 
 ## Machine Learning / AI
 
