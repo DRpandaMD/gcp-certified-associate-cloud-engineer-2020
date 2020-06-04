@@ -107,17 +107,65 @@
 
 [Virtual Private Cloud](https://cloud.google.com/vpc/)
 
+![Virtual Private Cloud](/ServicesBreadth/Images/VirtualPrivateCloud.PNG)
+
 [Google Cloud Hybrid Connectivity (Cloud Interconnect)](https://cloud.google.com/hybrid-connectivity)
+
+![Cloud Interconnect](/ServicesBreadth/Images/Cloud_Interconnect.PNG)
 
 [Cloud VPN](https://cloud.google.com/vpn/docs/concepts/overview)
 
+![Cloud VPN](/ServicesBreadth/Images/Cloud_Virtual_Private_Network.PNG)
+
 [Dedicated Interconnect](https://cloud.google.com/interconnect/docs/concepts/dedicated-overview)
+
+![Dedicated Interconnect](/ServicesBreadth/Images/Dedicated_Interconnect.PNG)
 
 [Cloud Router](https://cloud.google.com/router/docs/)
 
+![Cloud Router](/ServicesBreadth/Images/Cloud_Router.PNG)
+
 [CDN Interconnect](https://cloud.google.com/interconnect/docs/how-to/cdn-interconnect)
 
+![CDN Interconnect](/ServicesBreadth/Images/CDN_Interconnect.PNG)
+
 ## Machine Learning / AI
+
+* *Note: ACG calls it the ML Engine at some point google renamed it the 'AI Platform'*
+
+[Cloud Machine Learning Engine (AI Platform)](https://cloud.google.com/ai-platform)
+
+[Case Study: Coca-Cola](https://developers.googleblog.com/2017/09/how-machine-learning-with-tensorflow.html)
+
+![Machine Learning Engine](/ServicesBreadth/Images/MachineLearningEngine.PNG)
+
+[Cloud Vision API (Vision AI)](https://cloud.google.com/vision/)
+
+![Vision API](/ServicesBreadth/Images/Vision_Api.PNG)
+
+[Cloud Speech API (Speech-To-Text)](https://cloud.google.com/speech-to-text/)
+
+![Speech API](/ServicesBreadth/Images/Speech_API.PNG)
+
+[Cloud Natural Language API (Natural Language)](https://cloud.google.com/natural-language/)
+
+![Natural Language API](/ServicesBreadth/Images/Natural_Language_API.PNG)
+
+[Cloud Translation API (Translation)](https://cloud.google.com/translate/)
+
+![Translation API](/ServicesBreadth/Images/Translation_API.PNG)
+
+[Dialogflow](https://cloud.google.com/dialogflow/)
+
+![Dialogflow](/ServicesBreadth/Images/Dialogflow.PNG)
+
+[Cloud Video Intelligence API(Video AI)](https://cloud.google.com/video-intelligence/)
+
+![Video AI](/ServicesBreadth/Images/Video_API.PNG)
+
+[Cloud Job Discovery (Cloud Talent Solution)](https://cloud.google.com/solutions/talent-solution)
+
+![Cloud Job Discovery (Cloud Talent Solution)](/ServicesBreadth/Images/Cloud_Job_Discovery.PNG)
 
 ## Big Data and IoT
 
