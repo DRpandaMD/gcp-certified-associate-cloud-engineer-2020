@@ -169,6 +169,47 @@
 
 ## Big Data and IoT
 
+[Big Data Lifecyle](https://cloud.google.com/solutions/data-lifecycle-cloud-platform)
+
+[Cloud Internet of Things(IoT) Core](https://cloud.google.com/iot-core/)
+
+![IoT Core](/ServicesBreadth/Images/IoTCore.PNG)
+
+[Cloud Pub/Sub](https://cloud.google.com/pubsub/)
+
+![Cloud Pub/Sub](/ServicesBreadth/Images/CloudPub_Sub.PNG)
+
+[Cloud Dataprep](https://cloud.google.com/dataprep/)
+
+![Cloud Dataprep](/ServicesBreadth/Images/Cloud_Dataprep.PNG)
+
+[Data Wrangling vs ETL](https://tdwi.org/articles/2017/02/10/data-wrangling-and-etl-differences.aspx)
+
+[Cloud Dataproc](https://cloud.google.com/dataproc/)
+
+![Cloud Dataproc](/ServicesBreadth/Images/Cloud_Dataproc.PNG)
+
+[Cloud Dataflow](https://cloud.google.com/dataflow/)
+
+![Cloud Dataflow](/ServicesBreadth/Images/Cloud_Dataflow.PNG)
+
+[Dataflow Shuffle](https://cloud.google.com/blog/products/gcp/introducing-cloud-dataflow-shuffle-for-up-to-5x-performance-improvement-in-data-analytic-pipelines)
+
+[Cloud Datalab](https://cloud.google.com/datalab/)
+
+![Cloud Datalab](/ServicesBreadth/Images/Cloud_Datalab.PNG)
+
+[Jupyter Notebook](https://jupyter.org/)
+
+[Cloud Data Studio](https://cloud.google.com/looker)
+
+![Cloud Data Studio](/ServicesBreadth/Images/Cloud_Data_Studio.PNG)
+
+[Cloud Genomics](https://cloud.google.com/life-sciences)
+
+![Cloud Genomics](/ServicesBreadth/Images/Cloud_Genomics.PNG)
+
+
 ## Identity and Access - Core Security
 
 ## Security Management - Monitoring and Response
