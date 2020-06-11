@@ -212,6 +212,51 @@
 
 ## Identity and Access - Core Security
 
+* Handles the AAA Model - Authentication, Authorization and Accounting or Auditing
+
+[GCP Security Overview](https://cloud.google.com/security/)
+
+
+[Roles](https://cloud.google.com/iam/docs/understanding-roles)
+
+![Roles](ServicesBreadth/Images/ROLES.PNG)
+
+[Cloud Identity and Access Management (IAM)](https://cloud.google.com/iam/)
+
+![Cloud Identity and Access Management (IAM)]()
+
+[Hierarchical Access Control](https://cloud.google.com/iam/docs/resource-hierarchy-access-control)
+
+![Hierarchical Access Control]()
+
+[Service Accounts](https://cloud.google.com/iam/docs/understanding-service-accounts)
+
+![Service Accounts]()
+
+[Cloud Identity](https://support.google.com/cloudidentity/answer/7319251?visit_id=637274812682549470-3926363671&rd=1)
+
+![Cloud Identity]()
+
+[Security Key Enforcement](https://cloud.google.com/security-key/)
+
+![Security Key Enforcement]()
+
+[Resource Manager](https://cloud.google.com/resource-manager/)
+
+![Resource Manager]()
+
+[Resource Manager Hierarchy](https://cloud.google.com/resource-manager/docs/cloud-platform-resource-hierarchy)
+
+![Resource Manager Hierarchy]()
+
+[Cloud Identity-Aware Proxy (IAP)](https://cloud.google.com/iap/)
+
+![Cloud Identity-Aware Proxy (IAP)]()
+
+[Cloud Audit Logging](https://cloud.google.com/logging/docs/audit/)
+
+![Cloud Audit Logging]()
+
 ## Security Management - Monitoring and Response
 
 ## Encryption Key Management
