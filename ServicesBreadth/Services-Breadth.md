@@ -216,46 +216,47 @@
 
 [GCP Security Overview](https://cloud.google.com/security/)
 
-
 [Roles](https://cloud.google.com/iam/docs/understanding-roles)
 
-![Roles](ServicesBreadth/Images/ROLES.PNG)
+![Roles](/ServicesBreadth/Images/ROLES.PNG)
 
 [Cloud Identity and Access Management (IAM)](https://cloud.google.com/iam/)
 
-![Cloud Identity and Access Management (IAM)]()
+![Cloud Identity and Access Management (IAM)](/ServicesBreadth/Images/Cloud_IAM.PNG)
+
+* Take a look at the image below to get an idea of how the access would work
 
 [Hierarchical Access Control](https://cloud.google.com/iam/docs/resource-hierarchy-access-control)
 
-![Hierarchical Access Control]()
+![Cloud Identity and Access Management (IAM)](/ServicesBreadth/Images/Cloud_IAM_Support.PNG)
 
 [Service Accounts](https://cloud.google.com/iam/docs/understanding-service-accounts)
 
-![Service Accounts]()
+![Service Accounts](/ServicesBreadth/Images/Service_Accounts.PNG)
 
 [Cloud Identity](https://support.google.com/cloudidentity/answer/7319251?visit_id=637274812682549470-3926363671&rd=1)
 
-![Cloud Identity]()
+![Cloud Identity](/ServicesBreadth/Images/Cloud_Identity.PNG)
 
 [Security Key Enforcement](https://cloud.google.com/security-key/)
 
-![Security Key Enforcement]()
+![Security Key Enforcement](/ServicesBreadth/Images/Security_Key_Enforcement.PNG)
 
 [Resource Manager](https://cloud.google.com/resource-manager/)
 
-![Resource Manager]()
+![Resource Manager](/ServicesBreadth/Images/Cloud_Resource_Manager.PNG)
 
 [Resource Manager Hierarchy](https://cloud.google.com/resource-manager/docs/cloud-platform-resource-hierarchy)
 
-![Resource Manager Hierarchy]()
+![Resource Manager Hierarchy](/ServicesBreadth/Images/Cloud_Resource_Manager_Support.PNG)
 
 [Cloud Identity-Aware Proxy (IAP)](https://cloud.google.com/iap/)
 
-![Cloud Identity-Aware Proxy (IAP)]()
+![Cloud Identity-Aware Proxy (IAP)](/ServicesBreadth/Images/Cloud_Identity-Aware_Proxy.PNG)
 
 [Cloud Audit Logging](https://cloud.google.com/logging/docs/audit/)
 
-![Cloud Audit Logging]()
+![Cloud Audit Logging](/ServicesBreadth/Images/Cloud_Audit_Logging.PNG)
 
 ## Security Management - Monitoring and Response
 
