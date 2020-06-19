@@ -260,8 +260,104 @@
 
 ## Security Management - Monitoring and Response
 
+[Cloud Armor](https://cloud.google.com/armor/)
+
+[Cloud Armor]()
+
+[Cloud Security Scanner](https://cloud.google.com/security-command-center/docs)
+
+[Cloud Security Scanner]()
+
+[Cloud Data Loss Prevention (DLP) API](https://cloud.google.com/dlp/)
+
+[Cloud Data Loss Prevention (DLP) API]()
+
+[Event Threat Detection (ETC)](https://cloud.google.com/security-command-center/docs)
+
+[Event Threat Detection (ETC)]()
+
+[Cloud Security Command Center(SCC)](https://cloud.google.com/security-command-center/)
+
+[Cloud Security Command Center(SCC)]()
+
+[Getting started with Cloud SCC (blog post)](https://cloud.google.com/blog/products/identity-security/getting-started-with-cloud-security-command-center)
+
+[What is a SIEM (YouTube Video)](https://www.youtube.com/watch?v=ZuLazPgFtBE&feature=youtu.be)
+
 ## Encryption Key Management
+
+[Cloud Key Management Service (KMS)]()
+
+[Cloud Key Management Service (KMS)]()
+
+[Cloud Hardware Security Module (HMS)]()
+
+[Cloud Hardware Security Module (HMS)]()
 
 ## Operations and Management
 
+[Google Stackdriver]()
+
+[Google Stackdriver]()
+
+[Stackdriver Monitoring]()
+
+[Stackdriver Monitoring]()
+
+[Stackdriver Logging]()
+
+[Stackdriver Logging]()
+
+[Stackdriver Error Reporting]()
+
+[Stackdriver Error Reporting]()
+
+[Stackdriver Trace]()
+
+[Stackdriver Trace]()
+
+[Stackdriver Debugger]()
+
+[Stackdriver Debugger]()
+
+[Stackdriver Profiler]()
+
+[Cloud Deployment Manager]()
+
+[Cloud Deployment Manager]()
+
+[Cloud Billing API]()
+
+[Cloud Billing API]()
+
 ## Development and APIs
+
+[Cloud Source Repositories]()
+
+[Cloud Source Repositories]()
+
+[Cloud Build]()
+
+[Cloud Build]()
+
+[Container Registry(GCR)]()
+
+[Container Registry(GCR)]()
+
+[Cloud Endpoints]()
+
+[Cloud Endpoints]()
+
+[Cloud Endpoints Architecture]()
+
+[Cloud Endpoints Architecture]()
+
+[Cloud Endpoints gRPC Transcoding]()
+
+[Apigee API Platform]()
+
+[Apigee API Platform]()
+
+[Test Lab for Android]()
+
+[Test Lab for Android]()
