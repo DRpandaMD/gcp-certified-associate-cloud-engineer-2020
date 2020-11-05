@@ -70,7 +70,7 @@
 
 * API is broken up into parts
 
-  * SIGs look after the API
+  * SIGs (special interest groups)look after the API
 
 ### Kubernetes Objects
 
@@ -568,7 +568,7 @@ Here is an overview I snipped from the mad lads over at acloudguru
 
 * CronJob - scheduled Job
 
-* PodSecurityPolicy 
+* PodSecurityPolicy
 
 * Pod resource requests and limits
 
