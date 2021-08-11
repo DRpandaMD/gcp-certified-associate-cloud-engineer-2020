@@ -54,7 +54,7 @@ At a high level they are tasked to do:
 
 * Leverages Google-managed ort self-managed services on Google Cloud
 
-**Exam Domains**
+#### **Exam Domains**
 
 1) Setting up a cloud solution environment 
 
@@ -71,7 +71,7 @@ At a high level they are tasked to do:
 Here You can find a link to the [BluePrint](https://cloud.google.com/certification/guides/cloud-engineer/)
 
 
-### Exam Question Break Down
+#### Exam Question Break Down
 
 |   |    |
 |---|----|
@@ -79,8 +79,7 @@ Here You can find a link to the [BluePrint](https://cloud.google.com/certificati
 | **Eliminate** | Get rid of responses that have fake info or other errors **&&** Get Rid of responses that conflict with the key question |
 | **Evaluate** | Think through all the tradeoffs for remaining responses **&&** consider bot stated and implied dimensions|
 | **Choose** | Pick exactly the right number **&&** select the best options or eliminate the worst ones
-| **Validate** | Make sure your responses answer the key question **&&** make sure your responses don't conflict with any details 
-
+| **Validate** | Make sure your responses answer the key question **&&** make sure your responses don't conflict with any details
 
 ---
 
@@ -91,7 +90,7 @@ Here You can find a link to the [BluePrint](https://cloud.google.com/certificati
 ![CheatSheet](/Images/DarkCheatSheet.png)
 
 
-**Key Building Blocks**
+### **Key Building Blocks**
 
 * Compute Engine -- VMs Disks, Network
 
@@ -117,9 +116,9 @@ Here You can find a link to the [BluePrint](https://cloud.google.com/certificati
 
 * Cloud Dataproc -- Manged Spark and Hadoop
 
-* Cloud Pub/Sub -- Global Real-time Messaging 
+* Cloud Pub/Sub -- Global Real-time Messaging
 
-* Google BigQuery -- Data Warehouse/Analytics 
+* Google BigQuery -- Data Warehouse/Analytics
 
 * Virtual Private Cloud -- Software Defined Networking
 
@@ -127,22 +126,21 @@ Here You can find a link to the [BluePrint](https://cloud.google.com/certificati
 
 * Cloud Identity -- Manage Users
 
-* Cloud IAM -- Resources Access Control 
+* Cloud IAM -- Resources Access Control
 
 ### Links
 
---- 
+---
 
 * [Here You can find a link to the BluePrint](https://cloud.google.com/certification/guides/cloud-engineer/)
 
 * Here you can find the [GCP Solutions Website](https://gcp.solutions/)
 
-* Wiki [Google's Tools](https://en.wikipedia.org/wiki/Google_data_centers#Software) 
+* Wiki [Google's Tools](https://en.wikipedia.org/wiki/Google_data_centers#Software)
 
 * [SRE Books](https://landing.google.com/sre/book.html)
 
 * [Interview with Lynn Langit](https://read.acloud.guru/serverless-superheroes-lynn-langit-on-big-data-nosql-and-google-versus-aws-f4427dc8679c)
-
 
 #### GCP Design and Structure Links
 
