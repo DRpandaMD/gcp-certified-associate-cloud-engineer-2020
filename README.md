@@ -73,7 +73,7 @@ Here You can find a link to the [BluePrint](https://cloud.google.com/certificati
 
 #### Exam Question Break Down
 
-|   |    |
+|   |	|
 |---|----|
 | **Understand** | Determine the key question Kicker **&&** Figure out what everything means -question and responses |
 | **Eliminate** | Get rid of responses that have fake info or other errors **&&** Get Rid of responses that conflict with the key question |

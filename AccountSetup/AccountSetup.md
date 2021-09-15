@@ -1,6 +1,6 @@
 # Account Set Up
 
-I already have a paid account.  But the Free Trial Account from GCP is pretty sweet.  Links are below for more information. 
+I already have a paid account.  But the Free Trial Account from GCP is pretty sweet.  Links are below for more information.
 
 * [GCP Free Trial](https://cloud.google.com/free/)
 
@@ -8,6 +8,7 @@ I already have a paid account.  But the Free Trial Account from GCP is pretty sw
 
 * [GCP Always Free](https://cloud.google.com/free/docs/gcp-free-tier#always-free)
 
+* [GCP Cloud Free Tier](https://cloud.google.com/free/docs/gcp-free-tier)
 
 ## Setting up the Account
 
@@ -60,17 +61,17 @@ I already have a paid account.  But the Free Trial Account from GCP is pretty sw
 
 * Billing IAM
 
-   * Role: Billing Account User
+  * Role: Billing Account User
 
-   * Purpose: Link projects to billing accounts.
+  * Purpose: Link projects to billing accounts.
 
-   * Level: Organization or Billing Account
+  * Level: Organization or Billing Account
 
-   * Use Case: This role has very restricted permissions, so you can grant it broadly, typically in combination with Project Creator.  These two roles allow a user to create new project linked to the billing account on which the role is granted. 
+  * Use Case: This role has very restricted permissions, so you can grant it broadly, typically in combination with Project Creator.  These two roles allow a user to create new project linked to the billing account on which the role is granted.
 
-   * The point here is to tightly control the access of who manages the billing.
+  * The point here is to tightly control the access of who manages the billing.
 
-   * Remember to enable 2FA and multi-step auth whenever you are given the option for it.
+  * Remember to enable 2FA and multi-step auth whenever you are given the option for it.
 
 
 ## Explore Cloud Shell and Editor 
@@ -79,13 +80,11 @@ I already have a paid account.  But the Free Trial Account from GCP is pretty sw
 
 * [ACloudGuru GCP Cloud Engineer Repo](https://github.com/ACloudGuru/gcp-cloud-engineer)
 
-
-**What is Google Cloud Shell**
+### What is Google Cloud Shell
 
 `Google Cloud Shell provides you with command-line access to your cloud resources directly from your browser.  You can easily manage your projects and resources without having to install the Google Cloud SDK or other tools on your system.  With Cloud Shell the Cloud SDK gcloud CLI and other utilities you need are always available, up to date and fully authenticated when you need them ` -- GCP Docs
 
-
-**Highlights**
+### Highlights
 
 * Web browser access
 
@@ -108,17 +107,15 @@ I already have a paid account.  But the Free Trial Account from GCP is pretty sw
 
 * `dl <filename>`
 
-
 ## Data Flows
 
-**aCloudGuru Lecture Video Links**
+### aCloudGuru Lecture Video Links
 
 * [Mental Models](https://acloud.guru/course/aws-certification-preparation/learn/Learning-Effectively/Mental-Models/watch)
 
 * [Mental Model Example](https://acloud.guru/course/aws-certification-preparation/learn/Learning-Effectively/Mental-Model-Example/watch)
 
 * [Zooming In and Out](https://acloud.guru/course/aws-certification-preparation/learn/Learning-Effectively/Zooming-In-and-Out/watch)
-
 
 IT is all about Data flows.  Try to link up in you mind, a mental model for how this data flows through the cloud system and how you move data in systems that you build on top of the cloud platform
 
@@ -127,7 +124,6 @@ IT is all about Data flows.  Try to link up in you mind, a mental model for how 
 | Network | Moving |
 | Compute | Processing |
 | Storage | Remembering |
-
 
 ### Mental Models
 
@@ -141,11 +137,6 @@ IT is all about Data flows.  Try to link up in you mind, a mental model for how 
 
   * Zooming and out
 
-
 ## A look at Google Projects
 
 * [GCP Projects](https://cloud.google.com/docs/overview/#projects)
-
-
-
-

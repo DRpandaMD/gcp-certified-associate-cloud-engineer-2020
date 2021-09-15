@@ -8,9 +8,7 @@
 
 * In this lab I included a `./lab-content/` directory that has a empty text file and some memes I enjoy to upload, edit permissions, move and delete in the cloud.  Feel Free to use them as you like.
 
-
 ### GSC: Google Cloud Storage (gsutil cli)
-
 
 * note use this commands only as a guide
 
@@ -63,7 +61,6 @@ gsutil ls -a gs://storage-lab-cli/
 
 gsutil acl ch -u AllUsers:R gs://storage-lab-cli/Selfie.jpg
 ```
-
 
 ## Google Compute Engine
 

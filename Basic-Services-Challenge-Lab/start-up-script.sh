@@ -24,8 +24,8 @@ apt-get -yq upgrade
 # Install Google's Stackdriver logging agent, as per
 # https://cloud.google.com/logging/docs/agent/installation
 #
-curl -sSO https://dl.google.com/cloudagents/install-logging-agent.sh
-bash install-logging-agent.sh
+curl -sSO https://dl.google.com/cloudagents/add-logging-agent-repo.sh
+sudo bash add-logging-agent-repo.sh --also-install
 
 
 #
