@@ -1,32 +1,23 @@
-# Identity and Access Management (IAM ) Breakdown
-
+# Identity and Access Management (IAM) Breakdown
 
 ## Resource Hierarchy
 
-* Resource 
-
-    * Something you create in GCP
-
-* Project
-
-    * Container for a set of related resources
+* Resource
+  * Something you create in GCP
+  * Project
+  * Container for a set of related resources
 
 * Folder
-
-    * Contains an number of Projects and Subfolders
-
+  * Contains an number of Projects and Subfolders
 
 * Organization
-
-    * Tied to G Suite or Cloud Identity domain.
+  * Tied to G Suite or Cloud Identity domain.
 
 ### Docs
 
 * [Resource hierarchy for access control](https://cloud.google.com/iam/docs/resource-hierarchy-access-control)
 
 * [G Cloud IAM Overview](https://cloud.google.com/iam/docs/resource-hierarchy-access-control)
-
-
 
 ## IAM Breakdown -- Permissions & Roles
 
@@ -40,7 +31,7 @@
 
 * [Predefined Roles](https://cloud.google.com/iam/docs/understanding-roles#predefined_roles)
 
-### Permissions 
+### Permissions
 
 * A permission allows you to perform  certain action
 
@@ -49,34 +40,25 @@
 * Usually correspond to REST API methods
 
 * Examples:
-
-    * `pubsub.subscriptions.consume`
-
-    * `pubsub.topics.publish`
-
+  * `pubsub.subscriptions.consume`
+  * `pubsub.topics.publish`
 
 ### Roles
 
 * A role is a collection of Permissions to use or manage GCP Resources
 
 * Primitive Roles - Project-level and often too broad
-
-    * viewer is read-only
-
-    * editor can view and change things
-
-    * owner can also control access & billing
+  * viewer is read-only
+  * editor can view and change things
+  * owner can also control access & billing
 
 * Predefined Roles -  Give granular access to specific GCP resources
-
-    * E.g.: `roles/bigquery.dataEditor, roles/pubsub.subscriber`
-
-    * For the exam read through the list of roles for each product!  --Think about why each exists
+  * E.g.: `roles/bigquery.dataEditor, roles/pubsub.subscriber`
+  * For the exam read through the list of roles for each product!  --Think about why each exists
 
 * Custom Role - Project or Org-Level Collections you define of granular permissions
 
 #### App Engine - Predefined Role Example
-
 
 | Role Name | Role Title | Description |
 | ---- | ----- | ---- |
@@ -85,7 +67,6 @@
 | roles/ appengine.deployer | App Engine Deployer | Read-only access to all application configuration and settings.  Write access only to create a new version; cannot modify existing versions other than deleting versions that are not receiving traffic|
 | roles/ appengine.appViewer | App Engine Viewer | Read-only access to all application configurations and settings. |
 | roles/ appengine.codeViewer | App Engine Code Viewer | Read-only access to all configuration settings, and deployed source code |
-
 
 ### Members and Groups
 
@@ -98,17 +79,11 @@
 * Each member is identified by a unique email address
 
 * Can be:
-
-    * user: Specific Google Account:  `{G Suit, Cloud Identity, Gmail or validated email}`
-
-    * `serviceAccount`: Service account for apps/services
-
-    * `group` : Google group of users and service accounts
-
-    * `domain`: whole domain managed by GSuite or Cloud Identity
-
-    * `allAuthenticatedUsers --  *ANY* Google account or service account 
-
+  * user: Specific Google Account:  `{G Suit, Cloud Identity, Gmail or validated email}`
+  * `serviceAccount`: Service account for apps/services
+  * `group` : Google group of users and service accounts
+  * `domain`: whole domain managed by GSuite or Cloud Identity
+  * `allAuthenticatedUsers --  *ANY* Google account or service account
 
 #### Groups
 
@@ -117,17 +92,14 @@
 * "Every group has unique email address that is associated with the group."
 
 * You can never act *as* the group
-
-    * But membership in a group can grant capabilities to individuals 
+  * But membership in a group can grant capabilities to individuals
 
 * Use them for everything!
 
 * Can be used for owner when within an organization
 
 * *Can* nest groups in an organization
-
-    * Example: one group for each department, all those in group for all staff
-
+  * Example: one group for each department, all those in group for all staff
 
 ### IAM Breakdown - Policies
 
@@ -137,7 +109,6 @@
 
 * ["gcloud add-iam-policy-binding"](https://www.google.com/search?q=gcloud+add-iam-policy-binding+site%3Acloud.google.com)
 
-
 #### Policies
 
 * A Policy binds Members to Roles for some scope of Resources
@@ -145,17 +116,14 @@
 * Answers: Who can do what to which things?
 
 * Attached to some level in the Resource Hierarchy
-
-    * Organization, Folder, Project, Resource
+  * Organization, Folder, Project, Resource
 
 * Roles and Members listed in policy, but Resource identified by attachment
 
 * Always additive ("Allow") and never subtractive (no "Deny")
-
-    * "Child policies cannot restrict access granted at a higher level
+  * "Child policies cannot restrict access granted at a higher level
 
 * Use groups!
-
 
 ##### Managing Policy Bindings
 
@@ -173,7 +141,7 @@
 
   * *Avoids race conditions, so changes cna happen simultaneously*
 
-
+  * Example `gcloud beta compute instances add-iam-policy-binding myhappyvm --role roles/compute.instanceAdmin -- member user:me@example.com`
 
 ### IAM Breakdown -- Wrap Up
 
