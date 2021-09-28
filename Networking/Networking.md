@@ -18,10 +18,9 @@
 
 * [Routing - Wikipedia](https://en.wikipedia.org/wiki/Routing)
 
-
 ## Routing - To Google's Networking (Premium Routing Tier)
 
-### Links 
+### Links
 
 * [Premium Routing Tier Blog Post](https://cloud.google.com/blog/products/gcp/introducing-network-service-tiers-your-cloud-network-your-way)
 
@@ -32,7 +31,6 @@
 * Take a look at this gif to get an idea:
 
 ![Google Network](/Networking/images/google_network.gif)
-
 
 ## Routing - To the Right Resource
 
@@ -61,21 +59,16 @@
 ### Layer 4 vs Layer 7
 
 * TCP is usually called Layer 4
-
-    * it works solely with IP addresses
+  * it works solely with IP addresses
 
 * HTTP and HTTPS works at layer 7
-
-    * these know about URLs and paths
+  * these know about URLs and paths
 
 * Each layer is built on the one below it
 
 * Therefore:
-
   * To route based on URL paths routing needs to understand Layer 7
-
   * Layer 4 cannot rout based on the URL paths defined in Layer 7
-
 
 ### So what about DNS?
 
@@ -97,16 +90,17 @@
 
     * spoiler alert they don't!
 
+  * Premium tier "cold potato" routing with global anycast IPs avoid these problems.
+
 ## Routing -- Among Resources (VPC)
 
-### Helpful Links
+### Helpful Links Part 2
 
 * [AcloudGuru -- Primer on Subnets and CIDRs](https://acloud.guru/series/acg-fundamentals/view/62f923ef-8f30-2f51-8681-5ab5de29b45d)
 
 * [Classless inter-domain routing CIDR Blocks on Wikipedia](https://en.wikipedia.org/wiki/Classless_Inter-Domain_Routing)
 
 * [Private Network on Wikipedia](https://en.wikipedia.org/wiki/Private_network)
-
 
 ### Getting data from one resource another
 
@@ -133,7 +127,6 @@
 ## VPC - Automode Lab
 
 * [subnet ranges](https://cloud.google.com/vpc/docs/vpc#subnet-ranges)
-
 
 ## VPC - Custom Mode Lab
 
@@ -163,7 +156,6 @@
 
 * [acloudguru: Thead for editing instance in the web console](https://acloud.guru/forums/gcp-certified-associate-cloud-engineer/discussion/-LX_K01iaNGvgD6ICp_p/cannot_edit_instance_in_group)
 
-
 Add tag to VM via `gcloud`
 
 ```bash
@@ -173,7 +165,6 @@ gcloud compute instances add-tags frontend-instance-group-knf1 --zone=us-west1-c
 ### Challenge Lab
 
 * A Lab Challenge built on the previous step
-
 
 #### Desired Result -- SETUP
 
@@ -215,7 +206,6 @@ gcloud compute instances add-tags frontend-instance-group-knf1 --zone=us-west1-c
 
   * can ping other backend instances
 
-
 #### My Solution
 
 * Start with 2 sets of managed instance groups like in the first lab
@@ -232,12 +222,11 @@ gcloud compute instances add-tags frontend-instance-group-knf1 --zone=us-west1-c
 
 * **I Will come back to this at a later date to finish**
 
-
 ## Networking Exam Tips
 
 * Practice CIDR Blocks
 
-  * /16, /24, /28, etc 
+  * /16, /24, /28, etc
 
   * use <https://cidr.xyz/>
 
@@ -272,7 +261,6 @@ gcloud compute instances add-tags frontend-instance-group-knf1 --zone=us-west1-c
 * No need to recreate subnet or instances
 
 * New range must contain old range (i.e. old range must be a subset)
-
 
 ### Shared VPC
 
