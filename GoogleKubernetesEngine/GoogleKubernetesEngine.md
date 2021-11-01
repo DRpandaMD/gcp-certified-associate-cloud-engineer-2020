@@ -44,7 +44,7 @@
 
 * scaling K8s Apps
 
-* RBAC and Admision Control
+* RBAC and Admission Control
 
 * Other Kubernetes stuff
 
@@ -84,7 +84,7 @@
 
   * Object on the cluster
 
-* **Deploy**
+* **Deployment**
 
   * Object on the cluster
 
@@ -92,7 +92,7 @@
 
   * scaling
 
-  * rolling updates
+  * rolling updates / rollback
 
 ### Getting a cluster
 
@@ -118,7 +118,7 @@
 
 ### Sample App
 
-* I forked this from nigelpoulton <https://github.com/DRpandaMD/k8s-sample-apps>
+* I forked this from nigel poulton <https://github.com/DRpandaMD/k8s-sample-apps>
 
 ## Kubernetes Networking
 
@@ -126,7 +126,7 @@
 
 * big scalable networks
 
-* service discovery! 
+* service discovery!
 
 * highly dynamic networks are the new normal
 
@@ -140,7 +140,6 @@
 
 * they are in a declarative format. which is great for K8s and Documentation.
 
-
 ### Kubernetes Networking Basics
 
 * All nodes can talk
@@ -149,11 +148,13 @@
 
 * every pod gets its own IP
 
+* CNI plugin
+
 ### Kubernetes Service Fundamentals
 
 * enter Stable network abstraction 
 
-* every service gets a name and IP -- they are stable
+* every service gets a name and IP -- they are stable, never changes
 
 * services are auto registered in coreDNS
 
