@@ -152,16 +152,15 @@
 
 ### Kubernetes Service Fundamentals
 
-* enter Stable network abstraction 
+* enter Stable network abstraction (services)
 
 * every service gets a name and IP -- they are stable, never changes
 
 * services are auto registered in coreDNS
 
-* use labels for pod traffic routing 
+* use labels (label selectors) for pod traffic routing 
 
 * end point object maps ips from pods and labels
-
 
 ### Service Types
 
@@ -181,14 +180,14 @@
 
   * integrates with public cloud platform (AWS, Azure GCP)
 
-
 ### The Service Network
+
 
 * Separate from:
 
-    * Node network
+  * Node network
 
-    * Pod network
+  * Pod network
 
 * "kube-proxy"
 
@@ -214,6 +213,7 @@
 
 * I forked the class lesson here <https://github.com/DRpandaMD/Course_Kubernetes_Deep_Dive_NP/tree/master/lesson-networking>
 
+* **New** You wil have to run `gcloud container clusters get-credentials study-cluster --region us-central1` by default the cloud shell kubeconfig has no idea about the cluster credentials so you have to go fetch them.  It will auto stash them into your kubeconfig file
 
 * `kubectl get nodes` used to list nodes in the cluster
 
@@ -251,7 +251,7 @@
 
   * This will ALSO dump out the html text of the pod
 
-* Now to set up the public load balancer 
+* Now to set up the public load balancer
 
 * `kubectl apply --f lb.yml` to deploy the new lb service
 
@@ -267,13 +267,13 @@
 
 * Kubernetes Volumes abstract the data from the pods -- decoupling storage from Pods
 
-* File and Block are First Class citizens in Kubernetes 
+* File and Block are First Class citizens in Kubernetes
 
   * Standards based
 
   * pluggable backend
 
-  * Rich API 
+  * Rich API
 
 * What are your storage requirements
 
@@ -281,7 +281,7 @@
 
   * Replication?
 
-  * Resiliency 
+  * Resiliency
 
   * ...etc
 
@@ -311,13 +311,23 @@
 
 * GCEPersistentDisk PlugIn
 
-* to use a PV  needs to PV Claim  
+* to use a PV  needs to PV Claim
 
+* RWO : ReadWriteOnce
+
+* RWM : ReadWriteMany
+
+* ROM : ReadOnlyMany
+
+* not all volumes support all modes
+
+* a PV can only have one active PVC/AccessMode
 
 ### Dynamic Provisioning with StorageClasses
 
 * using storage classes allow for the dynamic creation of PV and binding
 
+* api provisioner
 
 ### Storage Classes Demo
 
@@ -366,7 +376,7 @@
 
 * Using this code <https://github.com/ACloudGuru-Resources/Course_Kubernetes_Deep_Dive_NP/tree/master/code-k8s> or the fork that I have provided
 
-* examine the directory code and dockerfile 
+* examine the directory code and dockerfile
 
 * `docker image build -t drpandamd/node-app:0.1 .`
 
